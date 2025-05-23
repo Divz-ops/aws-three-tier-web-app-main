@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'github-token', branch: 'main', url: 'https://github.com/Divz-ops/aws-three-tier-web-app.git'
+                git credentialsId: 'github-token', branch: 'main', url: 'https://github.com/Divz-ops/aws-three-tier-web-app-main.git'
             }
         }
 
