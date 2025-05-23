@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Pranav1194/aws-three-tier-web-app.git'
+                git branch: 'main', url: 'https://github.com/Divz-ops/aws-three-tier-web-app.git'
             }
         }
 
